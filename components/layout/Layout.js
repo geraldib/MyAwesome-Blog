@@ -1,6 +1,6 @@
 import MainNavigation from "./main-navigation";
 
-const Layout = (props) => {
+const layout = (props) => {
   return (
     <>
       <MainNavigation />
