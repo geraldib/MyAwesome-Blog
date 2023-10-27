@@ -24,7 +24,7 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 - Built-in Page Pre-rendering
 - Rich Data Fetching Capabilities
 - Image Optimization
-- Much More
+- Much More i
 
 ## File-based Routing
 
