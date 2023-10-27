@@ -23,7 +23,7 @@ const PostItem = (props) => {
             alt={title}
             width={300}
             height={200}
-            layout="responsive"
+            sizes="100vw"
           />
         </div>
         <div className={classes.content}>

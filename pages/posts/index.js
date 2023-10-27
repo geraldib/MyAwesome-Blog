@@ -1,9 +1,18 @@
+import Head from "next/head";
 import AllPosts from "../../components/posts/AllPosts";
 import { getAllPosts } from "../../lib/posts-util";
 
 const AllPostsPage = (props) => {
   const { posts } = props;
-  return <AllPosts posts={posts} />;
+  return (
+    <>
+      <Head>
+        <title>Posts</title>
+        <meta name="description" content="Displaying all posts page!" />
+      </Head>
+      <AllPosts posts={posts} />
+    </>
+  );
 };
 
 export default AllPostsPage;
