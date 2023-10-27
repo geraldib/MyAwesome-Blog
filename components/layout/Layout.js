@@ -1,4 +1,4 @@
-import MainNavigation from "../layout/MainNavigation";
+import MainNavigation from "./main-navigation";
 
 const Layout = (props) => {
   return (

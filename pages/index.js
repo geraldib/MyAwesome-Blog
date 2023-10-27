@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Hero from "../components/homepage/Hero";
-import FeaturePosts from "../components/homepage/FeaturedPosts";
+import Hero from "../components/homepage/hero";
+import FeaturePosts from "../components/homepage/featured-posts";
 import { getFeaturedPosts } from "../lib/posts-util";
 
 const HomePage = (props) => {
