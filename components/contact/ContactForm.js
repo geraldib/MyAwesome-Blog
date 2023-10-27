@@ -11,7 +11,7 @@ const ContactForm = () => {
     if (requestStatus === "success" || requestStatus === "error") {
       const timer = setTimeout(() => {
         setRequestStatus(null);
-      }, 3000);
+      }, 2000);
       return () => clearTimeout(timer);
     }
   }, [requestStatus]);
